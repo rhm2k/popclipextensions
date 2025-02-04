@@ -1,24 +1,43 @@
 Brett's PopClip Extensions
 =================
 
-My growing collection of [PopClip][popclip] extensions. 
+My growing collection of [PopClip][popclip] extensions.
 
 ## Installation
 
-This repository only includes these as source bundles (`.popclipext`), not packaged `.popclipextz` versions. To install, just make sure the extension of a folder is `.popclipext` and double click it in Finder. An up-to-date package of the bundled versions is [available on my site](http://brettterpstra.com/projects/bretts-popclip-extensions).
+This repository only includes these as source bundles
+(`.popclipext`), not packaged `.popclipextz` versions. To
+install, just make sure the extension of a folder is
+`.popclipext` and double click it in Finder. An up-to-date
+package of the bundled versions is [available on my
+site](http://brettterpstra.com/projects/bretts-popclip-extensions).
 
 <!--README-->
 
-_Current release version: **<!--VER-->1.44.8<!--END VER-->** ([source code](https://github.com/ttscoff/popclipextensions/releases/tag/<!--VER-->1.44.8<!--END VER-->))_
+_Current release version: **<!--VER-->1.45.4<!--END VER-->**
+([source
+code](https://github.com/ttscoff/popclipextensions/releases/tag/<!--VER-->1.44.8<!--END
+VER-->))_
 
-> Many of these extensions have alternate behaviors when holding modifier keys. Recent versions of PopClip override these variations and provide specific actions when holding modifiers, such as Shift to copy result and Option to display the result in the bar. This means that the variations in the plugins no longer function. A better system may be available in the future, but for now, to restore the modifier key functionality, you need to disable the global interpretation of them. Open Terminal and run this command:
+> Many of these extensions have alternate behaviors when
+> holding modifier keys. Recent versions of PopClip override
+> these variations and provide specific actions when holding
+> modifiers, such as Shift to copy result and Option to
+> display the result in the bar. This means that the
+> variations in the plugins no longer function. A better
+> system may be available in the future, but for now, to
+> restore the modifier key functionality, you need to
+> disable the global interpretation of them. Open Terminal
+> and run this command:
 >
 >       defaults write com.pilotmoon.popclip DisableAlternateActions -bool YES
 {:alert}
 
 ## Extensions
 
-The extensions currently included in the bundle. Some are available elsewhere as well, but this collection will always be the most up-to-date versions.
+The extensions currently included in the bundle. Some are
+available elsewhere as well, but this collection will always
+be the most up-to-date versions.
 
 <!--EXTENSIONS-->
 ### Blockquote
@@ -296,6 +315,10 @@ When you install this extension, you'll get an options page where you can select
 PopClip extension to call a number with Skype.
 
 
+### Slugify
+
+Turn selected text into a valid post slug, lowercasing, deleting non-alphanumeric characters, and replacing spaces with hyphens.
+
 ### Sum
 
 Detect all numbers in selection and total them. Allows decimal places (using `.` or `,` as separator) and negative numbers. Result is copied to clipboard.
@@ -337,17 +360,18 @@ When installing the extension, the options will appear. They can be accessed aga
 
 <!--JEKYLL{% download 78 %}-->
 
-The GitHub repository for all of my extensions is [here][github].
+The GitHub repository for all of my extensions is
+[here][github].
 
 ## Changelog
 
 <!--JEKYLL{% changelog https://raw.githubusercontent.com/ttscoff/popclipextensions/master/CHANGELOG.md %}-->
 
 <!--GITHUB-->
-See [the changelog on GitHub](https://github.com/ttscoff/popclipextensions/blob/master/CHANGELOG.md)
+See [the changelog on
+GitHub](https://github.com/ttscoff/popclipextensions/blob/master/CHANGELOG.md)
 <!--END GITHUB-->
 
 [popclip]: http://pilotmoon.com/popclip/
-[choosy]: http://www.choosyosx.com/
 [github]: https://github.com/ttscoff/popclipextensions
 <!--END README-->
